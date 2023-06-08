@@ -3,6 +3,8 @@ Background Remover with OpenCV Python - WEB LIVE
 
 See live demo at https://mbulut.pythonanywhere.com/
 
+A background can also be generated directly from text using libraries such as DALL·E. I was going to try that too but I didn't have the API key :)
+
 # How does the system work?</h5>
 The system works in two ways. First, we check whether the background is transparent by looking at the alpha values of the photo you uploaded.
 If there is a transparent background, we don't do anything about artificial intelligence. We simply combine the image with the background of your choice.
