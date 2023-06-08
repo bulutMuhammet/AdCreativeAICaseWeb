@@ -1,6 +1,8 @@
 # AdCreativeAICaseWeb
 Background Remover with OpenCV Python - WEB LIVE
 
+See live demo at https://mbulut.pythonanywhere.com/
+
 # How does the system work?</h5>
 The system works in two ways. First, we check whether the background is transparent by looking at the alpha values of the photo you uploaded.
 If there is a transparent background, we don't do anything about artificial intelligence. We simply combine the image with the background of your choice.
@@ -9,6 +11,7 @@ If there is a transparent background, we don't do anything about artificial inte
 This algorithm is not a deep learning algorithm, so it may be necessary to change the parameters to get the correct result.
 When the background is deleted, we do the first thing we mentioned and add the newly selected background to the transparent picture.
 
+_**Open source deep learning libraries such as https://github.com/danielgatis/rembg can also be used. However, I made it with opencv so that no 3rd source application is used. But with deep learning, much clearer results can be obtained.**_
 ## I created an example that the functions I wrote in this project will be made into a class and used in a real application.
 ``` python
 from io import BytesIO
